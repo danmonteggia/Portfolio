@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Portafolio · Fotografía</title>
+  <base target="_top">
+
+  <style>
+    @font-face {
+      font-family: 'Rochters';
+      src: url("data:font/opentype;base64,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TAHQAdQBkAGkAbwBzACAALgAgADIAMAAyADQAIABBAGwAbAAgAFIAaQBnAGgAdABzACAAUgBlAHMAZQByAHYAZQBkAEcAbAB5AHAAaABtAGkAbgBkAHMAIABTAHQAdQBkAGkAbwBzAAAAAwAAAAAAAP+cADIAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAADAAAAAAAAAACAAEAAwB2AAEAAAABAAAACgAwAEoAAkRGTFQADmxhdG4AGgAEAAAAAP//AAEAAAAEAAAAAP//AAEAAQACa2VybgAOa2VybgAUAAAAAQAAAAAAAQAAAAEABAACAAgAAgAKBcoAAQWAAAQAAAA0AHIAfACGAIwAkgCcAKYAsAC6AMwBBgFIAU4BaAGKAawCAgICAggCJgJoAgICAgLCAtACwgMuA0QDTgOsA8YD/AQSBFAEZgR0BHoEhASqBLAEugSwBKoEqgToBPIFHAUmBUQFSgVwBXoAAgAU/+AAFf/PAAIAEwAPABsANwABABsADgABABsAGQACABcACAAbAA8AAgATAA8AGwAjAAIAGQAiABsACgACABkAFAAbAA8ABAATABkAGQATABsAFwAcACgADgAkADUAKQAdAC0AFwAv//AAN/+RADj/6wA5/3kAOv+CADsAIQA8/1IAPQAXAFj/lQBZ/5UAXAAPABAAJf/2ACf/9gApABAAK//2ACz/9gAt/+MALv/2ADD/9gAx//YAM//2ADX/9gA3/80AOf/wADr/4wA7/+8APP/IAAEAKQANAAYAJP/NAC3/twAvAA0AN//HADn/6wA8/6oACAAkACIAKQAjAC8AEAA3AAwAPAATAD0AGgBVABMAXAAjAAgAJP9sACb/8AAq//AALwAjADcAGgA4AAgAOQAtADwAIwAVACQAJgAlABMAJwATACkADAArABMALAATAC4AEwAwABMAMQATADMAEwA1ABMAOf/vADsAHQA8/80APQAkAEMABABFAAQARgAEAEkABABRAAQAUwAEAAEAVv/nAAcAJP/wADgACQA5ABkAOgAGADsAEwA8ABAAPQAIABAAJAAgACUAGgAnABoAKwAaACwAGgAuABoAMAAaADEAGgAzABoANQAaADgAEAA5AB0AOgAmADsAFQA8ABEAPQAqABYAJAAgACUABwAm/9sAJwAHACgADgApABkAKv/bACsABwAsAAcALgAHADAABwAxAAcAMv/gADMABwA0/+AANQAHADf/VQA5/6YAOv+mADsAGgA8/4cAPQANAAMALwAGADf/1wA5//QAFwAk/5EAJv/0ACr/9AAt/20AQ//sAET/8QBF/+wARv/sAEf/4QBJ/+wASv/xAEv/6gBM//UATf/xAE7/6gBP//EAUP/xAFH/7ABS//EAU//sAFT/8QBXAAoAWwAKAAUAJv/2ACr/9gA3/90AOf/kAFb/5QACADgABgA9ACYAFwAk/3QAJf/1ACb/zQAn//UAKP/rACr/zQAr//UALP/1AC3/TAAu//UAMP/1ADH/9QAy/7cAM//1ADT/twA1//UAOQAQAEP/yQBF/8kARv/JAEn/yQBR/8kAU//JAAYAJP/vACgADQApAAgALf/aADYACQA3AA0ADQAk/2gAJv/cACr/3AAt/4sAMv/bADT/2wA6ACMAQ//nAEX/5wBG/+cASf/nAFH/5wBT/+cABQAk/2gALf+FADkAIwA6ACMAOwAcAA8AJAAoACUAHwAm/+YAJwAfACr/5gArAB8ALAAfAC0AEAAuAB8AMAAfADEAHwAzAB8ANQAfADoAJgBW/9wABQAk/1sAKP/mACn/3QAt/18ALwAPAAMAKP/zAC3/+wA2ABYAAQBH//QAAgBVAAsAVv/2AAkAQ//iAEX/4gBG/+IAR//4AEn/4gBLAAkATgAJAFH/4gBT/+IAAQBW/+wAAgBI/+8AVv/eAAsARAAPAEgAGQBKAA8ASwAKAE0ADwBOAAoATwAPAFAADwBSAA8AVAAPAFkAKAACAFcADwBbAA8ACgBD/+QARf/kAEb/5ABH/98ASAAHAEn/5ABM//QAUf/kAFP/5ABYABQAAgBHAAgAVv/7AAcAQ//3AEX/9wBG//cASf/3AFH/9wBT//cAXAAbAAEAR//fAAkAQ//sAEX/7ABG/+wAR//xAEn/7ABR/+wAU//sAFcADwBbAA8AAgBXABsAWwAbAAEAXAAhAAIACgATABkAAAAbABwABwAkAD0ACQBFAEUAIwBHAEgAJABKAEsAJgBNAFEAKABUAFYALQBYAFoAMABcAFwAMwACARgABAAAAUABpAALAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/kAAj/3P/q//AAAAAAAAAAAAAAAAAAAAAA//YAAAAAAAAABQAAAAAAAAAAAAAAAAAMAAAAAAAAAAr/1P/FAAAAAAAAAAAAAAAXAAAAAAALAAAAAAAAAAAAAAAAAAAAAP/G//j/wQAAAAAAAAAAAAAAAAAAAAAAAP/u/+v/6wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4AAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAZAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAsAAQASACQAKwAsADAAMQAyADQAOAA8AD0ARABHAEoASwBOAE8AUABSAAEAJAAvAAEAAAAAAAAAAAAAAAAAAgACAAAAAAAAAAIAAgADAAAAAwAAAAAAAAAEAAAAAAAAAAUABgAAAAAAAAAAAAAAAAAIAAAAAAAHAAAAAAAKAAkAAAAAAAkACgAKAAAACAABACQAOQAGAAIAAQACAAAAAAABAAIAAgAAAAIAAAACAAIAAwACAAMAAgAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAQACAAEAAQACQAAAAQACAAAAAAACAAAAAgACAAEAAgABAAIAAsAAAAFAAAAAAAAAAUACgABAAAACgAMAA4AAAAAAAAAAAABAAAAAQ==") format("opentype");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --color-fondo: #0d0d0d;
+      --color-vidrio: rgba(15, 15, 15, 0.6);
+      --color-vidrio-borde: rgba(255, 255, 255, 0.08);
+      --color-amarillo: #ffe14d;
+      --color-amarillo-suave: rgba(255, 225, 77, 0.18);
+      --color-texto: #f5f5f5;
+      --color-texto-tenue: rgba(245, 245, 245, 0.55);
+      --curva-resorte: cubic-bezier(0.34, 1.56, 0.64, 1);
+      --curva-suave: cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+    html, body {
+      background: var(--color-fondo);
+      color: var(--color-texto);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      overflow-x: hidden;
+      width: 100%;
+      min-height: 100%;
+      cursor: url("data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%22-9%20-9%2082%2082%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%20%3Cg%20transform%3D%22rotate%2818%2032%2032%29%22%3E%20%3Crect%20x%3D%2210%22%20y%3D%2220%22%20width%3D%2244%22%20height%3D%2228%22%20rx%3D%226%22%20fill%3D%22%23252521%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22/%3E%20%3Crect%20x%3D%2210%22%20y%3D%2220%22%20width%3D%2244%22%20height%3D%229%22%20rx%3D%226%22%20fill%3D%22%23B4B2A9%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22/%3E%20%3Crect%20x%3D%2225%22%20y%3D%2212%22%20width%3D%2214%22%20height%3D%229%22%20rx%3D%222%22%20fill%3D%22%23B4B2A9%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22/%3E%20%3Ccircle%20cx%3D%2232%22%20cy%3D%2236%22%20r%3D%2211%22%20fill%3D%22%23444441%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22/%3E%20%3Ccircle%20cx%3D%2232%22%20cy%3D%2236%22%20r%3D%227%22%20fill%3D%22%23888780%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221%22/%3E%20%3Ccircle%20cx%3D%2229.5%22%20cy%3D%2233.5%22%20r%3D%222%22%20fill%3D%22%23D3D1C7%22/%3E%20%3Ccircle%20cx%3D%2248%22%20cy%3D%2223.5%22%20r%3D%222.6%22%20fill%3D%22%23FAC775%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221%22/%3E%20%3C/g%3E%20%3C/svg%3E") 9 9, auto;
+    }
+
+    .destello-flash {
+      position: fixed; z-index: 9999; pointer-events: none;
+      width: 22px; height: 22px; border-radius: 50%;
+      transform: translate(0, 0) scale(0.3);
+      background: radial-gradient(circle, rgba(255,255,255,0.95) 0%, rgba(255,225,77,0.55) 40%, transparent 75%);
+      opacity: 0;
+      animation: destello-anim 0.45s ease-out forwards;
+    }
+    @keyframes destello-anim {
+      0%   { opacity: 0; transform: translate(0,0) scale(0.3); }
+      15%  { opacity: 1; transform: translate(0,0) scale(1.3); }
+      100% { opacity: 0; transform: translate(0,0) scale(1.8); }
+    }
+
+    .fondo-ambiental { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+    .orbe {
+      position: absolute; border-radius: 50%; filter: blur(150px); opacity: 0.35;
+      background: radial-gradient(circle, rgba(255,225,77,0.5) 0%, rgba(255,225,77,0) 70%);
+    }
+    .orbe--uno { width:480px; height:480px; top:-10%; left:-10%; animation: flotar-uno 38s ease-in-out infinite; }
+    .orbe--dos { width:520px; height:520px; bottom:-15%; right:-10%; background: radial-gradient(circle, rgba(184,150,30,0.45) 0%, rgba(184,150,30,0) 70%); animation: flotar-dos 46s ease-in-out infinite; }
+    .orbe--tres { width:380px; height:380px; top:40%; left:50%; background: radial-gradient(circle, rgba(255,225,77,0.25) 0%, rgba(255,225,77,0) 70%); animation: flotar-tres 52s ease-in-out infinite; }
+    @keyframes flotar-uno { 0%,100%{transform:translate(0,0) scale(1)} 50%{transform:translate(8vw,6vh) scale(1.15)} }
+    @keyframes flotar-dos { 0%,100%{transform:translate(0,0) scale(1)} 50%{transform:translate(-6vw,-8vh) scale(1.1)} }
+    @keyframes flotar-tres { 0%,100%{transform:translate(-50%,0) scale(1)} 50%{transform:translate(-50%,5vh) scale(1.2)} }
+
+    .barra-superior {
+      position: sticky; top: 0; z-index: 100;
+      width: 100%;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 16px;
+      padding: 16px 24px;
+      max-width: 1280px; margin: 0 auto;
+    }
+
+    .logo-picsiam {
+      font-family: 'Rochters', -apple-system, sans-serif;
+      font-size: 2.1rem;
+      letter-spacing: 0.06em;
+      color: var(--color-texto);
+      line-height: 1;
+      white-space: nowrap;
+      flex-shrink: 0;
+      user-select: none;
+      text-transform: uppercase;
+    }
+    .logo-picsiam .logo-i { color: #b9b9b9; }
+    .logo-picsiam .logo-am { color: var(--color-amarillo); }
+
+    .cabecera {
+      flex: 1 1 auto;
+      display: flex; align-items: center; justify-content: flex-end;
+      min-width: 0;
+    }
+    .filtros {
+      display: flex; gap: 4px;
+      padding: 6px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.10), rgba(255,255,255,0.02));
+      backdrop-filter: blur(28px) saturate(180%); -webkit-backdrop-filter: blur(28px) saturate(180%);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 22px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.45), inset 0 1px 1px rgba(255,255,255,0.18), inset 0 -1px 1px rgba(0,0,0,0.25);
+      max-width: 100%;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .filtros::-webkit-scrollbar { display: none; }
+
+    .filtro {
+      display: flex; align-items: center; gap: 6px;
+      padding: 10px 16px; border-radius: 16px; border: none;
+      background: transparent; color: var(--color-texto-tenue);
+      font-size: 0.85rem; font-weight: 500; cursor: pointer;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: color 0.3s var(--curva-suave), background 0.3s var(--curva-suave), box-shadow 0.3s var(--curva-suave);
+    }
+    .filtro svg { width:16px; height:16px; stroke:currentColor; fill:none; stroke-width:1.5; transition: stroke 0.3s var(--curva-suave); }
+    .filtro:hover { color: var(--color-texto); background: rgba(255,255,255,0.06); }
+    .filtro.activo {
+      color: var(--color-amarillo);
+      background: linear-gradient(135deg, rgba(255,225,77,0.22), rgba(255,225,77,0.08));
+      box-shadow: inset 0 1px 1px rgba(255,255,255,0.25), inset 0 -1px 2px rgba(0,0,0,0.2);
+    }
+    .filtro--instagram:hover { color: var(--color-amarillo); background: var(--color-amarillo-suave); }
+
+    .filtro--glass-pill {
+      padding: 10px 18px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.10), rgba(255,255,255,0.02));
+      backdrop-filter: blur(28px) saturate(180%); -webkit-backdrop-filter: blur(28px) saturate(180%);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 22px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.45), inset 0 1px 1px rgba(255,255,255,0.18), inset 0 -1px 1px rgba(0,0,0,0.25);
+    }
+    .filtro--glass-pill:hover { color: var(--color-texto); background: rgba(255,255,255,0.1); }
+    .filtro--glass-pill:disabled { opacity: 0.6; cursor: not-allowed; }
+
+    .galeria {
+      max-width: 1200px; margin: 28px auto 60px; padding: 0 16px;
+      display: flex; gap: 12px; align-items: flex-start;
+    }
+    .galeria__columna {
+      flex: 1 1 0; display: flex; flex-direction: column; gap: 12px; min-width: 0;
+    }
+    .galeria__columna.galeria__columna--offset { margin-top: 80px; }
+    .item-foto {
+      border-radius: 16px; overflow: hidden; cursor: pointer;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--color-vidrio-borde);
+      transition: transform 0.4s var(--curva-suave), opacity 0.5s var(--curva-suave);
+    }
+    .item-foto.oculto { display: none; }
+    .item-foto img { display: block; width: 100%; height: auto; transition: transform 0.5s var(--curva-suave); }
+    .item-foto:hover img { transform: scale(1.03); }
+    .item-foto.origen-activo img { opacity: 0; }
+
+    .albumes-seccion { display: none; max-width: 1200px; margin: 28px auto 60px; padding: 0 16px; }
+    .albumes-seccion.visible { display: block; }
+    .albumes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 18px;
+    }
+    .album-card {
+      border-radius: 18px; overflow: hidden; cursor: pointer;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--color-vidrio-borde);
+      transition: transform 0.3s var(--curva-suave), border-color 0.3s var(--curva-suave);
+    }
+    .album-card:hover { transform: translateY(-4px); border-color: rgba(255,225,77,0.3); }
+    .album-card__thumb {
+      width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block;
+      transition: transform 0.5s var(--curva-suave);
+    }
+    .album-card:hover .album-card__thumb { transform: scale(1.04); }
+    .album-card__thumb-wrap { overflow: hidden; }
+    .album-card__info { padding: 14px 16px; }
+    .album-card__nombre { font-size: 0.95rem; font-weight: 600; margin-bottom: 4px; }
+    .album-card__cantidad { font-size: 0.78rem; color: var(--color-texto-tenue); }
+
+    .album-interno { display: none; }
+    .album-interno.visible { display: block; }
+    .album-interno__header {
+      display: flex; align-items: center; gap: 14px;
+      margin-bottom: 20px; padding: 0 4px;
+    }
+    .album-interno__volver {
+      background: none; border: none; color: var(--color-texto-tenue);
+      font-size: 0.85rem; cursor: pointer;
+      display: flex; align-items: center; gap: 6px;
+      transition: color 0.3s var(--curva-suave);
+    }
+    .album-interno__volver svg { width:16px; height:16px; stroke:currentColor; fill:none; stroke-width:1.8; }
+    .album-interno__volver:hover { color: var(--color-amarillo); }
+    .album-interno__titulo { font-size: 1.15rem; font-weight: 600; }
+
+    @media (max-width: 720px) {
+      .barra-superior { padding: 12px 16px; gap: 10px; }
+      .logo-picsiam { font-size: 1.5rem; }
+      .galeria { gap: 10px; }
+      .galeria__columna { gap: 10px; }
+      .galeria__columna.galeria__columna--offset { margin-top: 50px; }
+      .item-foto { border-radius: 12px; }
+      .filtro { padding: 8px 10px; font-size: 0; }
+      .filtro svg { width: 18px; height: 18px; }
+      .albumes-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+    }
+    @media (max-width: 420px) {
+      .galeria { gap: 8px; }
+      .galeria__columna { gap: 8px; }
+      .galeria__columna.galeria__columna--offset { margin-top: 40px; }
+      .logo-picsiam { font-size: 1.25rem; }
+    }
+
+    .lightbox {
+      position: fixed; inset: 0; z-index: 200;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(8,8,8,0.78);
+      backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+      opacity: 0; visibility: hidden;
+      transition: opacity 0.35s var(--curva-suave), visibility 0.35s;
+      overflow: hidden;
+    }
+    .lightbox.visible { opacity: 1; visibility: visible; }
+
+    .lightbox,
+    .lightbox__contenedor,
+    .lightbox__imagen-wrapper,
+    .lightbox__imagen-wrapper.zoomed,
+    .lightbox__imagen-wrapper.zoomed.arrastrando {
+      cursor: url("data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%22-9%20-9%2082%2082%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%20%3Cg%20transform%3D%22rotate%2818%2032%2032%29%22%3E%20%3Crect%20x%3D%2210%22%20y%3D%2220%22%20width%3D%2244%22%20height%3D%2228%22%20rx%3D%226%22%20fill%3D%22%23252521%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22/%3E%20%3Crect%20x%3D%2210%22%20y%3D%2220%22%20width%3D%2244%22%20height%3D%229%22%20rx%3D%226%22%20fill%3D%22%23B4B2A9%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22/%3E%20%3Crect%20x%3D%2225%22%20y%3D%2212%22%20width%3D%2214%22%20height%3D%229%22%20rx%3D%222%22%20fill%3D%22%23B4B2A9%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22/%3E%20%3Ccircle%20cx%3D%2232%22%20cy%3D%2236%22%20r%3D%2211%22%20fill%3D%22%23444441%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22/%3E%20%3Ccircle%20cx%3D%2232%22%20cy%3D%2236%22%20r%3D%227%22%20fill%3D%22%23888780%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221%22/%3E%20%3Ccircle%20cx%3D%2229.5%22%20cy%3D%2233.5%22%20r%3D%222%22%20fill%3D%22%23D3D1C7%22/%3E%20%3Ccircle%20cx%3D%2248%22%20cy%3D%2223.5%22%20r%3D%222.6%22%20fill%3D%22%23FAC775%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221%22/%3E%20%3C/g%3E%20%3C/svg%3E") 9 9, auto !important;
+    }
+
+    .lightbox__peek {
+      position: absolute; top: 0; bottom: 0; width: 220px;
+      display: flex; align-items: center; justify-content: center;
+      pointer-events: none; overflow: hidden;
+    }
+    .lightbox__peek--izq { left: 0; }
+    .lightbox__peek--der { right: 0; }
+    .lightbox__peek img {
+      width: 200px; height: 80%; object-fit: cover;
+      border-radius: 16px;
+      filter: blur(8px) brightness(0.45);
+      opacity: 0;
+      transition: opacity 0.4s var(--curva-suave);
+      pointer-events: none; user-select: none;
+    }
+    .lightbox.visible .lightbox__peek img { opacity: 1; }
+
+    .lightbox__flecha {
+      position: absolute; top: 50%; transform: translateY(-50%);
+      z-index: 10; width: 48px; height: 48px;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 50%; border: 1px solid var(--color-vidrio-borde);
+      background: var(--color-vidrio);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      cursor: pointer;
+      transition: background 0.3s var(--curva-suave), opacity 0.3s;
+    }
+    .lightbox__flecha:hover { background: rgba(255,255,255,0.1); }
+    .lightbox__flecha svg { width:20px; height:20px; stroke:var(--color-texto); stroke-width:1.8; fill:none; }
+    .lightbox__flecha--izq { left: 16px; }
+    .lightbox__flecha--der { right: 16px; }
+    .lightbox__flecha.oculto { opacity: 0; pointer-events: none; }
+
+    .lightbox__contenedor {
+      position: relative; max-width: 90vw; max-height: 86vh;
+      border-radius: 18px; overflow: hidden;
+      box-shadow: 0 24px 80px rgba(0,0,0,0.55);
+      transform: scale(0.4); opacity: 0;
+      transition: transform 0.55s var(--curva-resorte), opacity 0.4s var(--curva-suave);
+    }
+    .lightbox.visible .lightbox__contenedor { transform: scale(1); opacity: 1; }
+
+    .lightbox__imagen-wrapper {
+      position: relative; display: block; line-height: 0;
+      overflow: hidden;
+      user-select: none;
+    }
+
+    .lightbox__imagen {
+      display: block; max-width: 90vw; max-height: 70vh;
+      width: auto; height: auto; object-fit: contain;
+      transition: filter 0.6s var(--curva-suave), opacity 0.6s var(--curva-suave);
+      transform-origin: center center;
+      pointer-events: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    .lightbox__ruido {
+      position: absolute; inset: 0; pointer-events: none;
+      background-image:
+        radial-gradient(circle at 20% 30%, rgba(255,255,255,0.18) 0, transparent 1.5px),
+        radial-gradient(circle at 60% 70%, rgba(255,255,255,0.14) 0, transparent 1.5px),
+        radial-gradient(circle at 80% 20%, rgba(255,255,255,0.16) 0, transparent 1.5px),
+        radial-gradient(circle at 40% 80%, rgba(255,255,255,0.12) 0, transparent 1.5px);
+      background-size: 6px 6px, 8px 8px, 7px 7px, 9px 9px;
+      filter: contrast(1.6) brightness(1.1);
+      opacity: 1; mix-blend-mode: overlay;
+      transition: opacity 1.1s var(--curva-suave);
+    }
+    .lightbox__imagen-wrapper.cargada .lightbox__ruido { opacity: 0; }
+    .lightbox__imagen-wrapper.cargando .lightbox__imagen { opacity: 0; }
+    .lightbox__imagen-wrapper.cargada .lightbox__imagen { filter: blur(0px) saturate(1); opacity: 1; }
+
+    .lightbox__info {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px; padding: 14px 20px;
+      background: var(--color-vidrio);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      border-top: 1px solid var(--color-vidrio-borde);
+    }
+    .lightbox__titulo { font-size: 0.95rem; font-weight: 500; color: var(--color-texto); }
+    .lightbox__categoria { display: block; margin-top: 2px; font-size: 0.75rem; color: var(--color-texto-tenue); text-transform: capitalize; }
+    .lightbox__acciones { display: flex; align-items: center; gap: 12px; }
+
+    .lightbox__descarga {
+      display: flex; align-items: center; justify-content: center;
+      width: 24px; height: 24px; flex-shrink: 0;
+      color: var(--color-texto-tenue); text-decoration: none;
+      transition: color 0.3s var(--curva-suave);
+    }
+    .lightbox__descarga:hover { color: var(--color-amarillo); }
+    .lightbox__descarga svg { width:22px; height:22px; stroke:currentColor; fill:none; stroke-width:1.6; }
+    .lightbox__descarga.oculto { display: none; }
+
+    .lightbox__zoom {
+      display: flex; align-items: center; justify-content: center;
+      width: 24px; height: 24px; flex-shrink: 0;
+      background: none; border: none; cursor: pointer;
+      color: var(--color-texto-tenue);
+      transition: color 0.3s var(--curva-suave);
+    }
+    .lightbox__zoom:hover { color: var(--color-amarillo); }
+    .lightbox__zoom svg { width:22px; height:22px; stroke:currentColor; fill:none; stroke-width:1.6; }
+    .lightbox__zoom.activo { color: var(--color-amarillo); }
+
+    .lightbox__likes { display: flex; align-items: center; gap: 6px; }
+    .likes__contador {
+      font-size: 0.85rem; color: var(--color-texto-tenue);
+      min-width: 16px; text-align: right;
+      transition: color 0.3s var(--curva-suave);
+    }
+    .likes__contador.activo { color: var(--color-amarillo); }
+    .icono-corazon {
+      width: 24px; height: 24px;
+      stroke: var(--color-texto-tenue); fill: none; stroke-width: 1.6;
+      flex-shrink: 0;
+      transition: stroke 0.3s var(--curva-suave), fill 0.3s var(--curva-suave);
+    }
+    .icono-corazon.activo { stroke: var(--color-amarillo); fill: var(--color-amarillo); }
+    .icono-corazon.rebote { animation: rebote-corazon 0.5s var(--curva-resorte); }
+    @keyframes rebote-corazon {
+      0%   { transform: scale(1); }
+      35%  { transform: scale(1.5); }
+      60%  { transform: scale(0.85); }
+      100% { transform: scale(1); }
+    }
+
+    .lightbox__cerrar {
+      position: absolute; top: 14px; right: 14px;
+      width: 38px; height: 38px;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 50%; border: 1px solid var(--color-vidrio-borde);
+      background: var(--color-vidrio);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      cursor: pointer; z-index: 5;
+      transition: background 0.3s var(--curva-suave);
+    }
+    .lightbox__cerrar:hover { background: rgba(255,255,255,0.08); }
+    .lightbox__cerrar svg { width:16px; height:16px; stroke:var(--color-texto); stroke-width:1.8; fill:none; }
+
+    .like-volador {
+      position: fixed; z-index: 300; pointer-events: none;
+      width: 64px; height: 64px;
+      fill: var(--color-amarillo); opacity: 0.92;
+      filter: drop-shadow(0 0 18px rgba(255,225,77,0.55));
+      transform: translate(-50%,-50%) scale(0);
+    }
+    .like-volador.fase-salto { animation: salto-like 0.45s var(--curva-resorte) forwards; }
+    @keyframes salto-like {
+      0%   { transform: translate(-50%,-50%) scale(0); }
+      55%  { transform: translate(-50%,-65%) scale(1.25); }
+      100% { transform: translate(-50%,-75%) scale(1); }
+    }
+    .like-volador.fase-vuelo {
+      transition: transform 1.4s cubic-bezier(0.45,0,0.2,1), opacity 0.3s linear 1.1s;
+    }
+
+    .entregas { display: none; max-width: 1200px; margin: 28px auto 60px; padding: 0 16px; }
+    .entregas.visible { display: block; }
+    .entregas__panel {
+      max-width: 480px; margin: 40px auto 0; padding: 28px;
+      background: var(--color-vidrio);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--color-vidrio-borde);
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+      transition: max-width 0.3s var(--curva-suave), background 0.3s, border-color 0.3s, box-shadow 0.3s, padding 0.3s;
+    }
+    .entregas__panel.expandido {
+      max-width: 1200px; background: transparent; border: none;
+      box-shadow: none; padding: 0;
+      backdrop-filter: none; -webkit-backdrop-filter: none;
+    }
+    .entregas__paso.oculto { display: none; }
+    .entregas__titulo { font-size: 1.1rem; font-weight: 600; margin-bottom: 4px; }
+    .entregas__subtitulo { font-size: 0.85rem; color: var(--color-texto-tenue); margin-bottom: 16px; }
+    .entregas__input {
+      width: 100%; padding: 12px 16px; border-radius: 14px;
+      border: 1px solid var(--color-vidrio-borde);
+      background: rgba(255,255,255,0.04);
+      color: var(--color-texto); font-size: 0.95rem; outline: none;
+      transition: border-color 0.3s var(--curva-suave);
+    }
+    .entregas__input:focus { border-color: var(--color-amarillo); }
+    .entregas__lista { margin-top: 10px; display: flex; flex-direction: column; gap: 6px; max-height: 240px; overflow-y: auto; }
+    .entregas__item-evento {
+      padding: 12px 14px; border-radius: 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--color-vidrio-borde);
+      cursor: pointer; font-size: 0.9rem;
+      transition: background 0.25s var(--curva-suave), border-color 0.25s var(--curva-suave);
+    }
+    .entregas__item-evento:hover { background: var(--color-amarillo-suave); border-color: var(--color-amarillo); }
+    .entregas__boton {
+      width: 100%; margin-top: 14px; padding: 12px 16px;
+      border-radius: 14px; border: none;
+      background: var(--color-amarillo); color: #1a1a05;
+      font-weight: 600; font-size: 0.95rem; cursor: pointer;
+      transition: transform 0.2s var(--curva-suave), opacity 0.2s var(--curva-suave);
+    }
+    .entregas__boton:hover { opacity: 0.9; }
+    .entregas__boton:active { transform: scale(0.98); }
+    .entregas__boton:disabled { opacity: 0.6; cursor: not-allowed; }
+    .entregas__error { margin-top: 10px; font-size: 0.82rem; color: #ff6b6b; }
+    .entregas__error.oculto { display: none; }
+    .entregas__volver {
+      display: inline-block; margin-top: 14px;
+      background: none; border: none;
+      color: var(--color-texto-tenue); font-size: 0.85rem; cursor: pointer;
+      transition: color 0.3s var(--curva-suave);
+    }
+    .entregas__volver:hover { color: var(--color-amarillo); }
+    .entregas__cargando { text-align: center; padding: 30px; color: var(--color-texto-tenue); font-size: 0.9rem; }
+    .entregas__cargando.oculto { display: none; }
+    .entregas__encabezado-galeria {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 14px; padding: 0 4px;
+    }
+    #pasoGaleriaEntrega .galeria { margin: 0 auto; padding: 0; }
+
+    @media (max-width: 720px) {
+      .entregas__panel { padding: 20px; }
+      .entregas__panel.expandido { padding: 0; }
+      .lightbox__peek { width: 80px; }
+      .lightbox__peek img { width: 70px; }
+      .lightbox__flecha--izq { left: 8px; }
+      .lightbox__flecha--der { right: 8px; }
+    }
+
+    .pie { text-align: center; padding: 24px 16px 48px; color: var(--color-texto-tenue); font-size: 0.75rem; letter-spacing: 0.05em; }
+
+    button, a, [role="button"], .item-foto, .album-card {
+      cursor: url("data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%22-9%20-9%2082%2082%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%20%3Cg%20transform%3D%22rotate%2818%2032%2032%29%22%3E%20%3Crect%20x%3D%2210%22%20y%3D%2220%22%20width%3D%2244%22%20height%3D%2228%22%20rx%3D%226%22%20fill%3D%22%23252521%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22/%3E%20%3Crect%20x%3D%2210%22%20y%3D%2220%22%20width%3D%2244%22%20height%3D%229%22%20rx%3D%226%22%20fill%3D%22%23B4B2A9%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22/%3E%20%3Crect%20x%3D%2225%22%20y%3D%2212%22%20width%3D%2214%22%20height%3D%229%22%20rx%3D%222%22%20fill%3D%22%23B4B2A9%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22/%3E%20%3Ccircle%20cx%3D%2232%22%20cy%3D%2236%22%20r%3D%2211%22%20fill%3D%22%23444441%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22/%3E%20%3Ccircle%20cx%3D%2232%22%20cy%3D%2236%22%20r%3D%227%22%20fill%3D%22%23888780%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221%22/%3E%20%3Ccircle%20cx%3D%2229.5%22%20cy%3D%2233.5%22%20r%3D%222%22%20fill%3D%22%23D3D1C7%22/%3E%20%3Ccircle%20cx%3D%2248%22%20cy%3D%2223.5%22%20r%3D%222.6%22%20fill%3D%22%23FAC775%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221%22/%3E%20%3C/g%3E%20%3C/svg%3E") 9 9, pointer !important;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="fondo-ambiental">
+    <div class="orbe orbe--uno"></div>
+    <div class="orbe orbe--dos"></div>
+    <div class="orbe orbe--tres"></div>
+  </div>
+
+  <div class="barra-superior">
+    <div class="logo-picsiam">PICS<span class="logo-i">I</span><span class="logo-am">AM</span></div>
+    <header class="cabecera">
+      <nav class="filtros" id="filtros">
+        <button class="filtro" data-vista="todo" aria-label="Mostrar todas las fotos">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+          <span>Todo</span>
+        </button>
+        <button class="filtro activo" data-vista="retratos" aria-label="Mostrar retratos">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.2"/><path d="M5 20c0-3.5 3-6 7-6s7 2.5 7 6"/></svg>
+          <span>Retratos</span>
+        </button>
+        <button class="filtro" data-vista="albumes" aria-label="Ver álbumes">
+          <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg>
+          <span>Álbumes</span>
+        </button>
+        <button class="filtro" data-vista="entregas" id="btnEntregas" aria-label="Acceder a entregas">
+          <svg viewBox="0 0 24 24"><path d="M21 8v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8M3 8l2-5h14l2 5M3 8h18M12 12v5M9.5 14.5L12 17l2.5-2.5"/></svg>
+          <span>Entregas</span>
+        </button>
+        <a class="filtro filtro--instagram" href="https://www.instagram.com/pics.i.am/" target="_blank" rel="noopener noreferrer" aria-label="Visitar Instagram">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.5"/><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" stroke="none"/></svg>
+          <span>Instagram</span>
+        </a>
+      </nav>
+    </header>
+  </div>
+
+  <main class="galeria" id="galeria"></main>
+
+  <section class="albumes-seccion" id="seccionAlbumes">
+    <div class="albumes-grid" id="albumesGrid"></div>
+    <div class="album-interno" id="albumInterno">
+      <div class="album-interno__header">
+        <button class="album-interno__volver" id="btnVolverAlbumes">
+          <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+          Álbumes
+        </button>
+        <h2 class="album-interno__titulo" id="albumInternoTitulo"></h2>
+      </div>
+      <main class="galeria" id="galeriaAlbum" style="margin-top:0; padding:0;"></main>
+    </div>
+  </section>
+
+  <section class="entregas" id="seccionEntregas">
+    <div class="entregas__panel" id="panelEntregas">
+      <div class="entregas__paso" id="pasoBuscarEvento">
+        <h2 class="entregas__titulo">Buscar tu entrega</h2>
+        <p class="entregas__subtitulo">Escribí el nombre de tu evento</p>
+        <input type="text" class="entregas__input" id="inputBuscarEvento" placeholder="Ej: Cumpleaños de Mili" autocomplete="off">
+        <div class="entregas__lista" id="listaEventos"></div>
+      </div>
+      <div class="entregas__paso oculto" id="pasoCodigo">
+        <h2 class="entregas__titulo" id="eventoSeleccionadoTitulo"></h2>
+        <p class="entregas__subtitulo">Ingresá el código que recibiste</p>
+        <input type="text" class="entregas__input" id="inputCodigo" placeholder="Código de acceso" autocomplete="off" inputmode="numeric">
+        <button class="entregas__boton" id="btnVerEntrega">Ver fotos</button>
+        <p class="entregas__error oculto" id="errorCodigo">Código incorrecto, intentá de nuevo.</p>
+        <button class="entregas__volver" id="btnVolverEventos">← Elegir otro evento</button>
+      </div>
+      <div class="entregas__paso oculto" id="pasoGaleriaEntrega">
+        <div class="entregas__encabezado-galeria">
+          <h2 class="entregas__titulo" id="eventoActivoTitulo"></h2>
+          <div style="display:flex; gap:10px; align-items:center;">
+            <button class="filtro filtro--glass-pill" id="btnDescargarTodo">
+              <svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+              <span>Descargar todo</span>
+            </button>
+            <button class="entregas__volver" id="btnVolverDesdeGaleria" style="margin-top:0;">← Volver</button>
+          </div>
+        </div>
+        <main class="galeria" id="galeriaEntrega"></main>
+      </div>
+      <div class="entregas__cargando oculto" id="cargandoEntrega">Cargando fotos…</div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox__peek lightbox__peek--izq">
+      <img id="peekIzq" src="" alt="">
+    </div>
+    <div class="lightbox__peek lightbox__peek--der">
+      <img id="peekDer" src="" alt="">
+    </div>
+    <button class="lightbox__flecha lightbox__flecha--izq oculto" id="flechaIzq" aria-label="Foto anterior">
+      <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <button class="lightbox__flecha lightbox__flecha--der oculto" id="flechaDer" aria-label="Foto siguiente">
+      <svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+    <div class="lightbox__contenedor" id="lightboxContenedor">
+      <button class="lightbox__cerrar" id="btnCerrarLightbox" aria-label="Cerrar">
+        <svg viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></svg>
+      </button>
+      <div class="lightbox__imagen-wrapper cargando" id="lightboxImagenWrapper">
+        <img class="lightbox__imagen" id="lightboxImagen" alt="">
+        <div class="lightbox__ruido"></div>
+      </div>
+      <div class="lightbox__info">
+        <div>
+          <div class="lightbox__titulo" id="lightboxTitulo"></div>
+          <span class="lightbox__categoria" id="lightboxCategoria"></span>
+        </div>
+        <div class="lightbox__acciones">
+          <a class="lightbox__descarga oculto" id="botonDescarga" download target="_blank" rel="noopener noreferrer" aria-label="Descargar foto">
+            <svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+          </a>
+          <button class="lightbox__zoom" id="btnZoom" aria-label="Zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+          </button>
+          <div class="lightbox__likes">
+            <span class="likes__contador" id="contadorLikes"></span>
+            <svg class="icono-corazon" id="iconoCorazon" viewBox="0 0 24 24">
+              <path d="M12 20.3C12 20.3 3 15.4 3 9.6C3 6.6 5.2 4.6 7.8 4.6C9.7 4.6 11.1 5.7 12 7.1C12.9 5.7 14.3 4.6 16.2 4.6C18.8 4.6 21 6.6 21 9.6C21 15.4 12 20.3 12 20.3Z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="pie">© Portafolio de fotografía — Todos los derechos reservados</footer>
+
+  <script>
+    /* ============================================================
+       ⚠️  ÚNICA LÍNEA QUE HAY QUE EDITAR
+       Pegá aquí la URL de tu Apps Script (termina en /exec)
+       ============================================================ */
+    var API_URL = 'https://script.google.com/macros/s/TU_ID_DE_DEPLOYMENT_AQUI/exec';
+
+    /* ============================================================
+       HELPERS DE API — reemplazan google.script.run
+       ============================================================ */
+    function apiGet(params) {
+      var query = Object.keys(params)
+        .map(function(k) { return encodeURIComponent(k) + '=' + encodeURIComponent(params[k]); })
+        .join('&');
+      return fetch(API_URL + '?' + query).then(function(r) { return r.json(); });
+    }
+
+    function apiPost(body) {
+      return fetch(API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      }).then(function(r) { return r.json(); });
+    }
+
+    /* ============================================================
+       ESTADO GLOBAL
+       ============================================================ */
+    var catalogo = [];
+    var vistaActiva = 'retratos';
+    var elementoOrigen = null;
+    var fotoActualLightbox = null;
+    var indiceActualLightbox = -1;
+    var catalogoFiltrado = [];
+    var likesMemoria = {};
+
+    var albumesData = {};
+    var albumActivoTitulo = null;
+
+    var listaEventosCache = [];
+    var eventoSeleccionado = null;
+    var entregaActiva = false;
+    var catalogoEntregaActiva = [];
+
+    var zoomEscala = 1;
+    var zoomOffsetX = 0;
+    var zoomOffsetY = 0;
+    var zoomArrastrando = false;
+    var zoomArrastreInicioX = 0;
+    var zoomArrastreInicioY = 0;
+    var zoomOffsetXInicio = 0;
+    var zoomOffsetYInicio = 0;
+    var ZOOM_NIVEL = 2.5;
+
+    var likesYaDados = {};
+    try {
+      var guardado = localStorage.getItem('picsiam_likes');
+      likesYaDados = guardado ? JSON.parse(guardado) : {};
+    } catch(e) { likesYaDados = {}; }
+
+    function guardarLikesLocales() {
+      try { localStorage.setItem('picsiam_likes', JSON.stringify(likesYaDados)); } catch(e) {}
+    }
+
+    /* ============================================================
+       CARGA INICIAL
+       ============================================================ */
+    function iniciar() {
+      apiGet({ action: 'catalogo' })
+        .then(function(datos) {
+          catalogo = datos;
+          construirAlbumes();
+          return apiGet({ action: 'likes' });
+        })
+        .then(function(likes) {
+          likesMemoria = likes || {};
+          aplicarFiltroGaleria('retratos');
+        })
+        .catch(function(error) {
+          console.error('Error al cargar el catálogo:', error);
+        });
+    }
+
+    /* ============================================================
+       ÁLBUMES
+       ============================================================ */
+    function construirAlbumes() {
+      albumesData = {};
+      catalogo.forEach(function(foto) {
+        if (!albumesData[foto.titulo]) albumesData[foto.titulo] = [];
+        albumesData[foto.titulo].push(foto);
+      });
+    }
+
+    /* ============================================================
+       NAVEGACIÓN PRINCIPAL
+       ============================================================ */
+    document.getElementById('filtros').addEventListener('click', function(evento) {
+      var boton = evento.target.closest('.filtro');
+      if (!boton) return;
+      if (boton.classList.contains('filtro--instagram')) return;
+      var vista = boton.dataset.vista;
+      if (!vista) return;
+      activarVista(vista);
+    });
+
+    function activarVista(vista) {
+      vistaActiva = vista;
+      document.querySelectorAll('.filtro[data-vista]').forEach(function(b) {
+        b.classList.toggle('activo', b.dataset.vista === vista);
+      });
+      document.getElementById('galeria').style.display = 'none';
+      document.getElementById('seccionAlbumes').classList.remove('visible');
+      document.getElementById('seccionEntregas').classList.remove('visible');
+
+      if (vista === 'todo') {
+        document.getElementById('galeria').style.display = '';
+        aplicarFiltroGaleria('todo');
+      } else if (vista === 'retratos') {
+        document.getElementById('galeria').style.display = '';
+        aplicarFiltroGaleria('retratos');
+      } else if (vista === 'albumes') {
+        document.getElementById('seccionAlbumes').classList.add('visible');
+        mostrarGridAlbumes();
+      } else if (vista === 'entregas') {
+        abrirSeccionEntregas();
+      }
+    }
+
+    /* ============================================================
+       GALERÍA
+       ============================================================ */
+    function aplicarFiltroGaleria(categoria) {
+      var fotos = categoria === 'retratos'
+        ? catalogo.filter(function(f) { return f.categoria === 'retratos'; })
+        : catalogo.slice();
+
+      renderizarGaleriaLadrillo(document.getElementById('galeria'), fotos, function(foto, item) {
+        entregaActiva = false;
+        catalogoFiltrado = fotos;
+        indiceActualLightbox = fotos.findIndex(function(f) { return f.id_drive === foto.id_drive; });
+        abrirLightbox(foto, item);
+      });
+    }
+
+    function obtenerCantidadColumnas() {
+      var ancho = window.innerWidth;
+      if (ancho <= 420) return 2;
+      if (ancho <= 720) return 2;
+      if (ancho <= 1024) return 3;
+      if (ancho <= 1280) return 4;
+      return 5;
+    }
+
+    function renderizarGaleriaLadrillo(contenedor, fotos, alClickearFoto) {
+      contenedor.innerHTML = '';
+      var numColumnas = obtenerCantidadColumnas();
+      var columnas = [];
+      for (var c = 0; c < numColumnas; c++) {
+        var columna = document.createElement('div');
+        columna.className = 'galeria__columna';
+        if (c % 2 === 1) columna.classList.add('galeria__columna--offset');
+        contenedor.appendChild(columna);
+        columnas.push(columna);
+      }
+      fotos.forEach(function(foto, idx) {
+        var item = crearItemFoto(foto);
+        item.addEventListener('click', function() { alClickearFoto(foto, item); });
+        columnas[idx % numColumnas].appendChild(item);
+      });
+    }
+
+    var lazyObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var img = entry.target;
+          img.src = img.dataset.src;
+          lazyObserver.unobserve(img);
+        }
+      });
+    }, { rootMargin: '200px' });
+
+    function crearItemFoto(foto) {
+      var item = document.createElement('div');
+      item.className = 'item-foto';
+      item.dataset.id = foto.id;
+      item.dataset.categoria = foto.categoria;
+      var img = document.createElement('img');
+      img.dataset.src = foto.url + '=w600';
+      img.alt = foto.titulo || '';
+      item.appendChild(img);
+      lazyObserver.observe(img);
+      return item;
+    }
+
+    /* ============================================================
+       ÁLBUMES: grid de cards
+       ============================================================ */
+    function mostrarGridAlbumes() {
+      document.getElementById('albumInterno').classList.remove('visible');
+      document.getElementById('albumesGrid').style.display = '';
+      var grid = document.getElementById('albumesGrid');
+      grid.innerHTML = '';
+      Object.keys(albumesData).forEach(function(titulo) {
+        var fotos = albumesData[titulo];
+        if (!fotos.length) return;
+        var card = document.createElement('div');
+        card.className = 'album-card';
+        var thumbWrap = document.createElement('div');
+        thumbWrap.className = 'album-card__thumb-wrap';
+        var thumb = document.createElement('img');
+        thumb.className = 'album-card__thumb';
+        thumb.src = fotos[0].url;
+        thumb.alt = titulo;
+        thumb.loading = 'lazy';
+        var info = document.createElement('div');
+        info.className = 'album-card__info';
+        info.innerHTML =
+          '<div class="album-card__nombre">' + titulo + '</div>' +
+          '<div class="album-card__cantidad">' + fotos.length + ' foto' + (fotos.length !== 1 ? 's' : '') + '</div>';
+        thumbWrap.appendChild(thumb);
+        card.appendChild(thumbWrap);
+        card.appendChild(info);
+        card.addEventListener('click', function() { abrirAlbum(titulo, fotos); });
+        grid.appendChild(card);
+      });
+    }
+
+    function abrirAlbum(titulo, fotos) {
+      albumActivoTitulo = titulo;
+      document.getElementById('albumesGrid').style.display = 'none';
+      document.getElementById('albumInternoTitulo').textContent = titulo;
+      renderizarGaleriaLadrillo(document.getElementById('galeriaAlbum'), fotos, function(foto, item) {
+        entregaActiva = false;
+        catalogoFiltrado = fotos.slice();
+        indiceActualLightbox = fotos.findIndex(function(f) { return f.id_drive === foto.id_drive; });
+        abrirLightbox(foto, item);
+      });
+      document.getElementById('albumInterno').classList.add('visible');
+    }
+
+    document.getElementById('btnVolverAlbumes').addEventListener('click', function() {
+      document.getElementById('albumInterno').classList.remove('visible');
+      document.getElementById('albumesGrid').style.display = '';
+      albumActivoTitulo = null;
+    });
+
+    /* ============================================================
+       LIGHTBOX
+       ============================================================ */
+    function abrirLightbox(foto, item) {
+      elementoOrigen = item;
+      fotoActualLightbox = foto;
+      if (item) item.classList.add('origen-activo');
+
+      var lightbox = document.getElementById('lightbox');
+      var wrapper = document.getElementById('lightboxImagenWrapper');
+      var imagen = document.getElementById('lightboxImagen');
+      var titulo = document.getElementById('lightboxTitulo');
+      var categoria = document.getElementById('lightboxCategoria');
+      var corazon = document.getElementById('iconoCorazon');
+      var botonDescarga = document.getElementById('botonDescarga');
+
+      resetearZoom();
+      corazon.classList.remove('activo', 'rebote');
+
+      if (foto.titulo && foto.titulo.trim() !== '') {
+        titulo.textContent = foto.titulo;
+        titulo.style.display = '';
+      } else {
+        titulo.textContent = '';
+        titulo.style.display = 'none';
+      }
+      categoria.textContent = foto.categoria;
+
+      if (entregaActiva && foto.url_descarga) {
+        botonDescarga.href = foto.url_descarga;
+        botonDescarga.download = foto.titulo || 'foto';
+        botonDescarga.classList.remove('oculto');
+      } else {
+        botonDescarga.classList.add('oculto');
+        botonDescarga.removeAttribute('href');
+      }
+
+      actualizarContadorLikes(foto.id_drive);
+
+      wrapper.classList.remove('cargada');
+      wrapper.classList.add('cargando');
+      imagen.removeAttribute('src');
+      imagen.onload = function() {
+        setTimeout(function() {
+          wrapper.classList.remove('cargando');
+          wrapper.classList.add('cargada');
+        }, 150);
+      };
+      requestAnimationFrame(function() {
+        imagen.src = entregaActiva ? foto.url + '=w2000' : foto.url;
+      });
+
+      actualizarNavegacion();
+      lightbox.classList.add('visible');
+    }
+
+    function actualizarNavegacion() {
+      var lista = entregaActiva ? catalogoEntregaActiva : catalogoFiltrado;
+      var idx = entregaActiva
+        ? catalogoEntregaActiva.findIndex(function(f) { return f.id_drive === fotoActualLightbox.id_drive; })
+        : indiceActualLightbox;
+
+      var flechaIzq = document.getElementById('flechaIzq');
+      var flechaDer = document.getElementById('flechaDer');
+      var peekIzq = document.getElementById('peekIzq');
+      var peekDer = document.getElementById('peekDer');
+
+      var hayAnterior = idx > 0;
+      var haySiguiente = idx < lista.length - 1;
+
+      flechaIzq.classList.toggle('oculto', !hayAnterior);
+      flechaDer.classList.toggle('oculto', !haySiguiente);
+
+      peekIzq.src = hayAnterior ? lista[idx - 1].url : '';
+      peekDer.src = haySiguiente ? lista[idx + 1].url : '';
+    }
+
+    function irFoto(direccion) {
+      var lista = entregaActiva ? catalogoEntregaActiva : catalogoFiltrado;
+      var idx = entregaActiva
+        ? catalogoEntregaActiva.findIndex(function(f) { return f.id_drive === fotoActualLightbox.id_drive; })
+        : indiceActualLightbox;
+
+      var nuevoIdx = idx + direccion;
+      if (nuevoIdx < 0 || nuevoIdx >= lista.length) return;
+      if (!entregaActiva) indiceActualLightbox = nuevoIdx;
+      if (elementoOrigen) {
+        elementoOrigen.classList.remove('origen-activo');
+        elementoOrigen = null;
+      }
+      abrirLightbox(lista[nuevoIdx], null);
+    }
+
+    document.getElementById('flechaIzq').addEventListener('click', function() { irFoto(-1); });
+    document.getElementById('flechaDer').addEventListener('click', function() { irFoto(1); });
+
+    document.addEventListener('keydown', function(evento) {
+      if (!document.getElementById('lightbox').classList.contains('visible')) return;
+      if (evento.key === 'Escape') { cerrarLightbox(); return; }
+      if (evento.key === 'ArrowLeft') { irFoto(-1); return; }
+      if (evento.key === 'ArrowRight') { irFoto(1); return; }
+    });
+
+    function cerrarLightbox() {
+      document.getElementById('lightbox').classList.remove('visible');
+      if (elementoOrigen) {
+        elementoOrigen.classList.remove('origen-activo');
+        elementoOrigen = null;
+      }
+      resetearZoom();
+    }
+
+    document.getElementById('btnCerrarLightbox').addEventListener('click', cerrarLightbox);
+    document.getElementById('lightbox').addEventListener('click', function(evento) {
+      if (evento.target === this) cerrarLightbox();
+    });
+
+    /* ============================================================
+       ZOOM
+       ============================================================ */
+    function aplicarTransformImagen() {
+      var imagen = document.getElementById('lightboxImagen');
+      imagen.style.transform =
+        'translate(' + zoomOffsetX + 'px, ' + zoomOffsetY + 'px) scale(' + zoomEscala + ')';
+    }
+
+    function resetearZoom() {
+      zoomEscala = 1; zoomOffsetX = 0; zoomOffsetY = 0; zoomArrastrando = false;
+      var imagen = document.getElementById('lightboxImagen');
+      var wrapper = document.getElementById('lightboxImagenWrapper');
+      var btnZoom = document.getElementById('btnZoom');
+      imagen.style.transition = 'filter 0.6s var(--curva-suave), opacity 0.6s var(--curva-suave), transform 0.35s ease';
+      imagen.style.transform = 'translate(0,0) scale(1)';
+      wrapper.classList.remove('zoomed', 'arrastrando');
+      btnZoom.classList.remove('activo');
+      btnZoom.innerHTML = '<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>';
+      setTimeout(function() { imagen.style.transition = 'filter 0.6s, opacity 0.6s'; }, 400);
+    }
+
+    function activarZoom(clientX, clientY) {
+      var wrapper = document.getElementById('lightboxImagenWrapper');
+      var imagen = document.getElementById('lightboxImagen');
+      var btnZoom = document.getElementById('btnZoom');
+      var rect = wrapper.getBoundingClientRect();
+      var rx = (clientX - rect.left) / rect.width;
+      var ry = (clientY - rect.top) / rect.height;
+      var iw = imagen.offsetWidth;
+      var ih = imagen.offsetHeight;
+      zoomEscala = ZOOM_NIVEL;
+      zoomOffsetX = (0.5 - rx) * iw * (zoomEscala - 1);
+      zoomOffsetY = (0.5 - ry) * ih * (zoomEscala - 1);
+      imagen.style.transition = 'filter 0.6s, opacity 0.6s, transform 0.3s ease';
+      aplicarTransformImagen();
+      setTimeout(function() { imagen.style.transition = 'filter 0.6s, opacity 0.6s'; }, 350);
+      wrapper.classList.add('zoomed');
+      btnZoom.classList.add('activo');
+      btnZoom.innerHTML = '<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/><path d="M8 11h6"/></svg>';
+    }
+
+    function clampZoomOffset() {
+      var wrapper = document.getElementById('lightboxImagenWrapper');
+      var rect = wrapper.getBoundingClientRect();
+      var iw = rect.width * zoomEscala;
+      var ih = rect.height * zoomEscala;
+      var maxX = Math.max(0, (iw - rect.width) / 2);
+      var maxY = Math.max(0, (ih - rect.height) / 2);
+      zoomOffsetX = Math.max(-maxX, Math.min(maxX, zoomOffsetX));
+      zoomOffsetY = Math.max(-maxY, Math.min(maxY, zoomOffsetY));
+    }
+
+    document.getElementById('lightboxImagenWrapper').addEventListener('click', function(e) {
+      if (_arrastreFueClick) { _arrastreFueClick = false; return; }
+      if (zoomEscala > 1) { resetearZoom(); }
+    });
+
+    document.getElementById('btnZoom').addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (zoomEscala > 1) {
+        resetearZoom();
+      } else {
+        var wrapper = document.getElementById('lightboxImagenWrapper');
+        var rect = wrapper.getBoundingClientRect();
+        activarZoom(rect.left + rect.width / 2, rect.top + rect.height / 2);
+      }
+    });
+
+    document.getElementById('lightboxImagenWrapper').addEventListener('wheel', function(e) {
+      e.preventDefault();
+      var wrapper = document.getElementById('lightboxImagenWrapper');
+      var imagen = document.getElementById('lightboxImagen');
+      var rect = wrapper.getBoundingClientRect();
+      var delta = e.deltaY < 0 ? 0.3 : -0.3;
+      var nuevaEscala = Math.max(1, Math.min(5, zoomEscala + delta));
+      if (nuevaEscala === 1) { resetearZoom(); return; }
+      var rx = (e.clientX - rect.left) / rect.width;
+      var ry = (e.clientY - rect.top) / rect.height;
+      var iw = imagen.offsetWidth;
+      var ih = imagen.offsetHeight;
+      var escalaAnterior = zoomEscala;
+      zoomOffsetX = zoomOffsetX - (rx - 0.5) * iw * (nuevaEscala - escalaAnterior);
+      zoomOffsetY = zoomOffsetY - (ry - 0.5) * ih * (nuevaEscala - escalaAnterior);
+      zoomEscala = nuevaEscala;
+      clampZoomOffset();
+      aplicarTransformImagen();
+      var btnZoom = document.getElementById('btnZoom');
+      wrapper.classList.add('zoomed');
+      btnZoom.classList.add('activo');
+      btnZoom.innerHTML = '<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/><path d="M8 11h6"/></svg>';
+    }, { passive: false });
+
+    var _arrastreFueClick = false;
+    document.getElementById('lightboxImagenWrapper').addEventListener('mousedown', function(e) {
+      if (zoomEscala <= 1) return;
+      e.preventDefault();
+      _arrastreFueClick = false;
+      zoomArrastrando = true;
+      zoomArrastreInicioX = e.clientX; zoomArrastreInicioY = e.clientY;
+      zoomOffsetXInicio = zoomOffsetX; zoomOffsetYInicio = zoomOffsetY;
+    });
+    document.addEventListener('mousemove', function(e) {
+      if (!zoomArrastrando) return;
+      var dx = e.clientX - zoomArrastreInicioX;
+      var dy = e.clientY - zoomArrastreInicioY;
+      if (Math.abs(dx) > 3 || Math.abs(dy) > 3) _arrastreFueClick = true;
+      zoomOffsetX = zoomOffsetXInicio + dx;
+      zoomOffsetY = zoomOffsetYInicio + dy;
+      clampZoomOffset();
+      aplicarTransformImagen();
+    });
+    document.addEventListener('mouseup', function() { if (!zoomArrastrando) return; zoomArrastrando = false; });
+
+    var touchInicioX = 0, touchInicioY = 0;
+    var touchOffsetXInicio = 0, touchOffsetYInicio = 0;
+    var touchMovioMucho = false;
+
+    document.getElementById('lightboxImagenWrapper').addEventListener('touchstart', function(e) {
+      if (e.touches.length !== 1) return;
+      touchInicioX = e.touches[0].clientX; touchInicioY = e.touches[0].clientY;
+      touchOffsetXInicio = zoomOffsetX; touchOffsetYInicio = zoomOffsetY;
+      touchMovioMucho = false;
+    }, { passive: true });
+
+    document.getElementById('lightboxImagenWrapper').addEventListener('touchmove', function(e) {
+      if (zoomEscala <= 1 || e.touches.length !== 1) return;
+      e.preventDefault();
+      var dx = e.touches[0].clientX - touchInicioX;
+      var dy = e.touches[0].clientY - touchInicioY;
+      if (Math.abs(dx) > 5 || Math.abs(dy) > 5) touchMovioMucho = true;
+      zoomOffsetX = touchOffsetXInicio + dx;
+      zoomOffsetY = touchOffsetYInicio + dy;
+      clampZoomOffset();
+      aplicarTransformImagen();
+    }, { passive: false });
+
+    /* ============================================================
+       LIKE VOLADOR
+       ============================================================ */
+    function activarLike(x, y) {
+      var corazonDestino = document.getElementById('iconoCorazon');
+      var rectDestino = corazonDestino.getBoundingClientRect();
+      var like = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      like.setAttribute('viewBox', '0 0 24 24');
+      like.classList.add('like-volador', 'fase-salto');
+      like.innerHTML = '<path d="M12 20.3C12 20.3 3 15.4 3 9.6C3 6.6 5.2 4.6 7.8 4.6C9.7 4.6 11.1 5.7 12 7.1C12.9 5.7 14.3 4.6 16.2 4.6C18.8 4.6 21 6.6 21 9.6C21 15.4 12 20.3 12 20.3Z"/>';
+      like.style.left = x + 'px';
+      like.style.top = y + 'px';
+      document.body.appendChild(like);
+      corazonDestino.classList.add('activo');
+      setTimeout(function() {
+        var destinoX = rectDestino.left + rectDestino.width / 2;
+        var destinoY = rectDestino.top + rectDestino.height / 2;
+        like.classList.remove('fase-salto');
+        like.classList.add('fase-vuelo');
+        like.style.left = destinoX + 'px';
+        like.style.top = destinoY + 'px';
+        like.style.transform = 'translate(-50%,-50%) scale(0.3)';
+        like.style.opacity = '0';
+        setTimeout(function() {
+          corazonDestino.classList.add('rebote');
+          like.remove();
+          setTimeout(function() { corazonDestino.classList.remove('rebote'); }, 500);
+        }, 1400);
+      }, 380);
+    }
+
+    /* ============================================================
+       LIKES
+       ============================================================ */
+    function actualizarContadorLikes(idDrive) {
+      var cantidad = likesMemoria[idDrive] || 0;
+      var el = document.getElementById('contadorLikes');
+      el.textContent = cantidad > 0 ? cantidad : '';
+      el.classList.toggle('activo', cantidad > 0);
+      var corazon = document.getElementById('iconoCorazon');
+      if (likesYaDados[idDrive]) { corazon.classList.add('activo'); }
+    }
+
+    function registrarLike(foto) {
+      var id = foto.id_drive;
+      if (likesYaDados[id]) return;
+      likesYaDados[id] = true;
+      guardarLikesLocales();
+      likesMemoria[id] = (likesMemoria[id] || 0) + 1;
+      actualizarContadorLikes(id);
+      // ← reemplaza google.script.run.sumarLike(id)
+      apiPost({ action: 'like', id_drive: id })
+        .catch(function(err) { console.error('Error al guardar like:', err); });
+    }
+
+    document.getElementById('lightboxImagenWrapper').addEventListener('dblclick', function(evento) {
+      activarLike(evento.clientX, evento.clientY);
+      registrarLike(fotoActualLightbox);
+    });
+
+    var ultimoTap = 0;
+    document.getElementById('lightboxImagenWrapper').addEventListener('touchend', function(evento) {
+      var ahora = Date.now();
+      if (ahora - ultimoTap < 300 && !touchMovioMucho) {
+        var toque = evento.changedTouches[0];
+        activarLike(toque.clientX, toque.clientY);
+        registrarLike(fotoActualLightbox);
+      }
+      ultimoTap = ahora;
+    });
+
+    /* ============================================================
+       ENTREGAS
+       ============================================================ */
+    function abrirSeccionEntregas() {
+      document.getElementById('galeria').style.display = 'none';
+      document.getElementById('seccionAlbumes').classList.remove('visible');
+      document.getElementById('seccionEntregas').classList.add('visible');
+      document.getElementById('panelEntregas').classList.remove('expandido');
+      mostrarPasoEntregas('pasoBuscarEvento');
+
+      if (listaEventosCache.length === 0) {
+        // ← reemplaza google.script.run.obtenerListaEventos()
+        apiGet({ action: 'eventos' })
+          .then(function(eventos) {
+            listaEventosCache = eventos;
+            renderizarListaEventos(eventos);
+          })
+          .catch(function(error) { console.error('Error al obtener eventos:', error); });
+      } else {
+        renderizarListaEventos(listaEventosCache);
+      }
+    }
+
+    function mostrarPasoEntregas(idPaso) {
+      ['pasoBuscarEvento', 'pasoCodigo', 'pasoGaleriaEntrega'].forEach(function(id) {
+        document.getElementById(id).classList.toggle('oculto', id !== idPaso);
+      });
+      document.getElementById('panelEntregas').classList.toggle('expandido', idPaso === 'pasoGaleriaEntrega');
+    }
+
+    function renderizarListaEventos(eventos) {
+      var contenedor = document.getElementById('listaEventos');
+      var filtroTexto = document.getElementById('inputBuscarEvento').value.trim().toLowerCase();
+      contenedor.innerHTML = '';
+      var filtrados = eventos.filter(function(nombre) { return nombre.toLowerCase().includes(filtroTexto); });
+      if (filtrados.length === 0 && filtroTexto !== '') {
+        var vacio = document.createElement('div');
+        vacio.className = 'entregas__subtitulo';
+        vacio.style.marginBottom = '0';
+        vacio.textContent = 'No se encontraron eventos.';
+        contenedor.appendChild(vacio);
+        return;
+      }
+      filtrados.forEach(function(nombre) {
+        var item = document.createElement('div');
+        item.className = 'entregas__item-evento';
+        item.textContent = nombre;
+        item.addEventListener('click', function() {
+          eventoSeleccionado = nombre;
+          document.getElementById('eventoSeleccionadoTitulo').textContent = nombre;
+          document.getElementById('inputCodigo').value = '';
+          document.getElementById('errorCodigo').classList.add('oculto');
+          mostrarPasoEntregas('pasoCodigo');
+        });
+        contenedor.appendChild(item);
+      });
+    }
+
+    document.getElementById('inputBuscarEvento').addEventListener('input', function() {
+      renderizarListaEventos(listaEventosCache);
+    });
+
+    document.getElementById('btnVolverEventos').addEventListener('click', function() {
+      mostrarPasoEntregas('pasoBuscarEvento');
+    });
+
+    document.getElementById('btnVerEntrega').addEventListener('click', function() {
+      var codigo = document.getElementById('inputCodigo').value.trim();
+      var errorEl = document.getElementById('errorCodigo');
+      if (codigo === '') {
+        errorEl.textContent = 'Ingresá un código.';
+        errorEl.classList.remove('oculto');
+        return;
+      }
+      errorEl.classList.add('oculto');
+      document.getElementById('pasoCodigo').classList.add('oculto');
+      document.getElementById('cargandoEntrega').classList.remove('oculto');
+
+      // ← reemplaza google.script.run.obtenerEntregaPorCodigo()
+      apiGet({ action: 'entrega', evento: eventoSeleccionado, codigo: codigo })
+        .then(function(respuesta) {
+          document.getElementById('cargandoEntrega').classList.add('oculto');
+          if (respuesta.error) {
+            document.getElementById('pasoCodigo').classList.remove('oculto');
+            errorEl.textContent = respuesta.error;
+            errorEl.classList.remove('oculto');
+            return;
+          }
+          document.getElementById('eventoActivoTitulo').textContent = respuesta.evento;
+          catalogoEntregaActiva = respuesta.fotos;
+          renderizarGaleriaEntrega(respuesta.fotos);
+          mostrarPasoEntregas('pasoGaleriaEntrega');
+        })
+        .catch(function(error) {
+          document.getElementById('cargandoEntrega').classList.add('oculto');
+          document.getElementById('pasoCodigo').classList.remove('oculto');
+          errorEl.textContent = 'Error al cargar la entrega. Intentá de nuevo.';
+          errorEl.classList.remove('oculto');
+          console.error('Error:', error);
+        });
+    });
+
+    document.getElementById('btnVolverDesdeGaleria').addEventListener('click', function() {
+      mostrarPasoEntregas('pasoCodigo');
+    });
+
+    document.getElementById('btnDescargarTodo').addEventListener('click', function() {
+      if (!catalogoEntregaActiva.length) return;
+      var btn = this;
+      var label = btn.querySelector('span');
+      label.textContent = 'Descargando…';
+      btn.disabled = true;
+      var delay = 0;
+      catalogoEntregaActiva.forEach(function(foto, i) {
+        setTimeout(function() {
+          var a = document.createElement('a');
+          a.href = foto.url_descarga || foto.url;
+          a.download = foto.titulo || ('foto_' + (i + 1));
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          if (i === catalogoEntregaActiva.length - 1) {
+            setTimeout(function() {
+              label.textContent = 'Descargar todo';
+              btn.disabled = false;
+            }, 800);
+          }
+        }, delay);
+        delay += 400;
+      });
+    });
+
+    function renderizarGaleriaEntrega(fotos) {
+      renderizarGaleriaLadrillo(document.getElementById('galeriaEntrega'), fotos, function(foto, item) {
+        entregaActiva = true;
+        indiceActualLightbox = catalogoEntregaActiva.findIndex(function(f) { return f.id_drive === foto.id_drive; });
+        abrirLightbox(foto, item);
+      });
+    }
+
+    /* ============================================================
+       FLASH DE CÁMARA
+       ============================================================ */
+    document.addEventListener('click', function(evento) {
+      var destello = document.createElement('div');
+      destello.className = 'destello-flash';
+      destello.style.left = (evento.clientX + -4) + 'px';
+      destello.style.top = (evento.clientY + -4) + 'px';
+      document.body.appendChild(destello);
+      setTimeout(function() { destello.remove(); }, 450);
+    });
+
+    /* ============================================================
+       RE-RENDER AL CAMBIAR TAMAÑO
+       ============================================================ */
+    var _resizeTimeout = null;
+    window.addEventListener('resize', function() {
+      clearTimeout(_resizeTimeout);
+      _resizeTimeout = setTimeout(function() {
+        if (vistaActiva === 'todo' || vistaActiva === 'retratos') {
+          aplicarFiltroGaleria(vistaActiva === 'retratos' ? 'retratos' : 'todo');
+        } else if (vistaActiva === 'albumes' && albumActivoTitulo && albumesData[albumActivoTitulo]) {
+          renderizarGaleriaLadrillo(document.getElementById('galeriaAlbum'), albumesData[albumActivoTitulo], function(foto, item) {
+            entregaActiva = false;
+            catalogoFiltrado = albumesData[albumActivoTitulo].slice();
+            indiceActualLightbox = catalogoFiltrado.findIndex(function(f) { return f.id_drive === foto.id_drive; });
+            abrirLightbox(foto, item);
+          });
+        } else if (vistaActiva === 'entregas' && catalogoEntregaActiva.length) {
+          renderizarGaleriaEntrega(catalogoEntregaActiva);
+        }
+      }, 250);
+    });
+
+    /* ============================================================
+       BLOQUEO ZOOM NATIVO
+       ============================================================ */
+    document.addEventListener('gesturestart', function(e) { e.preventDefault(); });
+    document.addEventListener('gesturechange', function(e) { e.preventDefault(); });
+    document.addEventListener('touchmove', function(e) {
+      if (e.touches.length > 1 && !e.target.closest('#lightboxImagenWrapper')) {
+        e.preventDefault();
+      }
+    }, { passive: false });
+
+    /* ============================================================
+       INICIO
+       ============================================================ */
+    document.addEventListener('DOMContentLoaded', iniciar);
+  </script>
+
+</body>
+</html>
