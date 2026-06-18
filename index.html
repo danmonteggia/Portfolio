@@ -1376,6 +1376,9 @@
 
   apiGet({ action: 'limpiarCache' })
     .then(function() {
+      return new Promise(function(resolve) { setTimeout(resolve, 1500); });
+    })
+    .then(function() {
       return apiGet({ action: 'catalogo' });
     })
     .then(function(datos) {
