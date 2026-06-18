@@ -674,7 +674,8 @@
        CARGA INICIAL
        ============================================================ */
     function iniciar() {
-      apiGet({ action: 'catalogo' })
+      apiGet({ action: 'limpiarCache' })
+    .then(function() { return apiGet({ action: 'catalogo' }); })
         .then(function(datos) {
           catalogo = datos;
           construirAlbumes();
