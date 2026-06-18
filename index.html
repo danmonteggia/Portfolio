@@ -1145,16 +1145,16 @@
     }
 
     function registrarLike(foto) {
-      var id = foto.id_drive;
-      if (likesYaDados[id]) return;
-      likesYaDados[id] = true;
-      guardarLikesLocales();
-      likesMemoria[id] = (likesMemoria[id] || 0) + 1;
-      actualizarContadorLikes(id);
-      // ← reemplaza google.script.run.sumarLike(id)
-      apiPost({ action: 'like', id_drive: id })
-        .catch(function(err) { console.error('Error al guardar like:', err); });
-    }
+  var id = foto.id_drive;
+  if (likesYaDados[id]) return;
+  likesYaDados[id] = true;
+  guardarLikesLocales();
+  likesMemoria[id] = (likesMemoria[id] || 0) + 1;
+  actualizarContadorLikes(id);
+  // ← cambiado de apiPost a apiGet
+  apiGet({ action: 'like', id_drive: id })
+    .catch(function(err) { console.error('Error al guardar like:', err); });
+}
 
     document.getElementById('lightboxImagenWrapper').addEventListener('dblclick', function(evento) {
       activarLike(evento.clientX, evento.clientY);
