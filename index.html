@@ -1374,7 +1374,10 @@
   svg.style.animation = 'spin 1s linear infinite';
   svg.style.transformOrigin = 'center';
 
-  apiGet({ action: 'catalogo', forzar: '1' })
+  apiGet({ action: 'limpiarCache' })
+    .then(function() {
+      return apiGet({ action: 'catalogo' });
+    })
     .then(function(datos) {
       catalogo = datos;
       construirAlbumes();
